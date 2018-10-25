@@ -33,7 +33,8 @@
 // Skonczone zadanie nalezy wyslac na UPEL w formie spakowanego katalogu (lab_03)
 // do archiwum lab_03.tar.gz
 // tar -czvf lab_03.tar.gz ~/oop/lab_03
-#include "table_functions.h"
+#include "src/table_functions.h"
+
 
 int main() {
   const int tab_size = 6;
