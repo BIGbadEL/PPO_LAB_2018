@@ -1,0 +1,88 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "(g++) build",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-g",
+                "main.cpp"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "(make) build",
+            "type": "shell",
+            "command": "make",
+            "args": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        },
+
+        {
+            "label": "(make) rebuild",
+            "type": "shell",
+            "command": "make",
+            "args": [
+                "rebuild"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        },
+
+        {
+            "label": "(make) clean",
+            "type": "shell",
+            "command": "make",
+            "args": [
+                "clean"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        },
+
+        {
+            "label": "(make) run",
+            "type": "shell",
+            "command": "make",
+            "args": [
+                "run"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        },
+
+        {
+            "label": "(valgrind) test",
+            "type": "shell",
+            "command": "valgrind",
+            "args": [
+                "--leak-check=full",
+                "--show-leak-kinds=all",
+                "--track-origins=yes",
+                "./*.exe"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        }
+    ]
+}
