@@ -38,7 +38,7 @@
 // Kody zrodlowe musza znajdowac sie w katalogu do ktorego nikt oprocz
 // wlasciciela nie ma praw dostepu.
 
-#include "include/StudentList.h"
+#include "StudentList.h"
 
 
 int main ()

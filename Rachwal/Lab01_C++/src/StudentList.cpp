@@ -20,7 +20,7 @@ int number
     temp.append(" ");
     temp.append(secName);
 
-    char *names = (char*)std::malloc(sizeof(char) * temp.length());
+    char *names = (char*)std::malloc(sizeof(char) * temp.length()+1);
     strcpy(names, temp.c_str());
 
 

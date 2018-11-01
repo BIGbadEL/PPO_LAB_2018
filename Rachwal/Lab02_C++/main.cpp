@@ -35,10 +35,9 @@
 // wlasciciela nie ma praw dostepu.
 
 #include <iostream>
-#include "include/MapPoint.h"
-#define MAPCALC
+#include "MapPoint.h"
 #ifdef MAPCALC
-#include "include/MapDistance.h"
+#include "MapDistance.h"
 #endif
 
 int main()
