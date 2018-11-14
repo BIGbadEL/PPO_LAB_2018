@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/StudentList.h
+iostream
+-
+string.h
+-
+stdio.h
+-
+stdlib.h
+-
+string
+-
+
+/home/grzegorz/Dokumenty/LAB/Complit/Rachwal/Lab01_C++/Main.cpp
+StudentList.h
+/home/grzegorz/Dokumenty/LAB/Complit/Rachwal/Lab01_C++/StudentList.h
+
+/home/grzegorz/Dokumenty/LAB/Complit/Rachwal/Lab01_C++/include/StudentList.h
+iostream
+-
+string.h
+-
+stdio.h
+-
+stdlib.h
+-
+string
+-
+
+/home/grzegorz/Dokumenty/LAB/Complit/Rachwal/Lab01_C++/src/StudentList.cpp
+../include/StudentList.h
+/home/grzegorz/Dokumenty/LAB/Complit/Rachwal/Lab01_C++/include/StudentList.h
+
+/home/grzegorz/Dokumenty/LAB/Complit/Rachwal/Lab01_C++/src/StudentListOperations.cpp
+../include/StudentList.h
+/home/grzegorz/Dokumenty/LAB/Complit/Rachwal/Lab01_C++/include/StudentList.h
+

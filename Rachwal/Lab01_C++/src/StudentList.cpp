@@ -14,6 +14,7 @@ int number
     *surnamesList = (char**)std::realloc(*surnamesList, sizeof(*surnamesList) * (*numberOfStudents));
     *yearsList = (int*)std::realloc(*yearsList, sizeof(char*) * (*numberOfStudents));
 
+
     if(!(*namesList && *surnamesList && *yearsList)) return;
 
     std::string temp(name);

@@ -1,0 +1,4 @@
+/home/grzegorz/Dokumenty/LAB/Complit/Rachwal/Lab02_C++/build/CMakeFiles/rebuild_cache.dir
+/home/grzegorz/Dokumenty/LAB/Complit/Rachwal/Lab02_C++/build/CMakeFiles/edit_cache.dir
+/home/grzegorz/Dokumenty/LAB/Complit/Rachwal/Lab02_C++/build/CMakeFiles/main.exe.dir
+/home/grzegorz/Dokumenty/LAB/Complit/Rachwal/Lab02_C++/build/CMakeFiles/TARGET.dir
