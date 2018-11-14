@@ -1,1 +1,0 @@
-/usr/bin/x86_64-linux-gnu-g++-8  -g  -rdynamic CMakeFiles/main.exe.dir/main.cpp.o CMakeFiles/main.exe.dir/src/MapDistance.cpp.o CMakeFiles/main.exe.dir/src/MapPoint.cpp.o  -o main.exe 
