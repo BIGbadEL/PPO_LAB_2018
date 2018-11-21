@@ -1,7 +1,6 @@
 CXX = g++
 EXEC = main.exe
 CXXFLAGS = -pedantic -MMD -MP -Wall  -g  -Wextra -Wshadow -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Wduplicated-cond -Wduplicated-branches -Wlogical-op -Wuseless-cast
-
 LIBS = -lm
 
 SRC=$(wildcard *.cpp)

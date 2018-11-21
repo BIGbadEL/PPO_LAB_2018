@@ -47,7 +47,7 @@ class MyString{
      * @return const wskaźnik na łańcuch znaków
     */
 
-    inline const char* str() const { return _string; }
+    inline constexpr char* str() const { return _string; }
   private:
      char* _string; /**< wskaźnik na łańcuch znaków */
 };
