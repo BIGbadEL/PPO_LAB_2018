@@ -28,6 +28,7 @@ MyString& MyString::append(MyString string){
     return *this;
 }
 
+
 MyString& MyString::insert(MyString string, unsigned int pos){
     char* temp = _string;
     _string = new char[strlen(temp) + strlen(string._string) + 1];

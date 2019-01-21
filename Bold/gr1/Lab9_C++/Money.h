@@ -5,6 +5,8 @@ constexpr int _10 = 10;
 constexpr int _100 = 100;
 constexpr int _1000 = 1000;
 
+
+
 class Money{
   friend class Currency;
   public:
@@ -21,6 +23,6 @@ class Currency{
   public:
     static const char* type(const Money& money);
   public:
-    constexpr static short USD = -1;
+    constexpr static int USD = -1;
     constexpr static unsigned int PLN = 1;
 };
